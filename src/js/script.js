@@ -422,12 +422,12 @@
       const url = settings.db.url + '/' + settings.db.orders;
 
       const payload = {
-        address: thisCart.dom.address,
-        phone: thisCart.dom.phone,
-        totalPrice: thisCart.dom.totalPrice,
-        subtotalPrice: thisCart.dom.subtotalPrice,
-        totalNumber: thisCart.dom.totalNumber,
-        deliveryFee: thisCart.dom.deliveryFee,
+        address: thisCart.dom.address.value,
+        phone: thisCart.dom.phone.value,
+        totalPrice: thisCart.totalPrice,
+        subtotalPrice: thisCart.subtotalPrice,
+        totalNumber: thisCart.totalNumber,
+        deliveryFee: thisCart.deliveryFee,
         products: []
       }
 

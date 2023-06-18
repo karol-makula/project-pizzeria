@@ -257,6 +257,7 @@
       "subtotalPrice": {},
       "totalNumber": {},
       "deliveryFee": {},
+      "discount": null,
       "products": [
         {
           "id": "cake",
@@ -279,6 +280,7 @@
       "subtotalPrice": {},
       "totalNumber": {},
       "deliveryFee": {},
+      "discount": null,
       "products": [
         {
           "id": "cake",
@@ -292,8 +294,8 @@
       "id": 4
     },
     {
-      "address": {},
-      "phone": {},
+      "address": "jrhhubf",
+      "phone": "45646765767",
       "totalPrice": {
         "0": {},
         "1": {}
@@ -314,15 +316,11 @@
       "id": 5
     },
     {
-      "address": {},
-      "phone": {},
-      "totalPrice": {
-        "0": {},
-        "1": {}
-      },
-      "subtotalPrice": {},
-      "totalNumber": {},
-      "deliveryFee": {},
+      "address": "",
+      "phone": "",
+      "totalPrice": 29,
+      "subtotalPrice": 9,
+      "totalNumber": 1,
       "products": [
         {
           "id": "cake",
@@ -336,15 +334,11 @@
       "id": 6
     },
     {
-      "address": {},
-      "phone": {},
-      "totalPrice": {
-        "0": {},
-        "1": {}
-      },
-      "subtotalPrice": {},
-      "totalNumber": {},
-      "deliveryFee": {},
+      "address": "jrhhubf",
+      "phone": "45646765767",
+      "totalPrice": 29,
+      "subtotalPrice": 9,
+      "totalNumber": 1,
       "products": [
         {
           "id": "cake",
@@ -356,35 +350,6 @@
         }
       ],
       "id": 7
-    },
-    {
-      "address": {},
-      "phone": {},
-      "totalPrice": {
-        "0": {},
-        "1": {}
-      },
-      "subtotalPrice": {},
-      "totalNumber": {},
-      "deliveryFee": {},
-      "products": [
-        {
-          "id": "breakfast",
-          "name": "Zia Giulia's Breakfast",
-          "amount": 1,
-          "priceSingle": 9,
-          "price": 9,
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "latte": "Latte"
-              }
-            }
-          }
-        }
-      ],
-      "id": 8
     }
   ]
 }
