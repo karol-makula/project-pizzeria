@@ -22,8 +22,8 @@ class Booking {
 
         thisBooking.dom = {
             wrapper: element,
-            peopleAmount: element.querySelector(select.booking.peopleAmount),
-            hoursAmount: element.querySelector(select.booking.hoursAmount), 
+            peopleAmount: element.querySelector(select.widgets.booking.peopleAmount),
+            hoursAmount: element.querySelector(select.widgets.booking.hoursAmount), 
         };
     }
 
